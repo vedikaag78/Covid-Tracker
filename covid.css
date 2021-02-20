@@ -1,0 +1,253 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    overflow: hidden;
+}
+.data-box-red:hover
+{ background-color: red;
+  transform: scale(1.2);
+}
+.data-box-blue:hover
+{background-color: royalblue;
+    transform: scale(1.2);}
+.data-box-green:hover
+{background-color: seagreen;
+    transform: scale(1.2);}
+.data-box-yellow:hover
+{ background-color: yellow;
+    transform: scale(1.2);
+}
+
+    
+
+.wrapper{
+    height: 100vh ;
+    width: 100vw;
+    display: flex;
+    
+
+}
+.chart-box{
+    height: 100%;
+    padding: 10px;
+}
+.chart-wrapper{
+    width: 94%;
+    position: relative;
+    background: rgb(11, 48, 25);
+    padding: 1px;
+    max-width: 900px;
+    border-radius: 20px;
+    margin: 0px;
+    border: 0px solid rgb(3, 31, 21)46, 0, 153;
+}
+
+#chart-bar{
+    position: relative;
+    
+    
+}
+
+
+.col1{
+    margin: 5px auto ;
+    height: 100vh;
+   width: 40vw;
+   background-color: rgb(8, 41, 27);
+   ;
+}
+.col2{
+    
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(48, 88, 60);
+}
+.col1 h1{
+    
+    text-align: center;
+    font-size: 40px;
+    color:white;
+ }
+.overview-box{
+    height:45vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    
+}
+.data-box{
+    height: 5vh ;
+    width: 25vh; 
+    background-color: rgb(199, 174, 199);
+    padding: 18px;
+    margin: 10px auto;
+    border-radius: 25px;
+    box-shadow:5px 5px 50px rgba(241, 86, 190, 0.45)
+
+
+}
+
+.navbar{
+    width: 100vw;
+    height: 6vh;
+    float: center;
+    position: absolute;
+    background-color:  rgb(9, 31, 18);
+    color: white;
+    box-shadow:5px 10px 50px rgba(10, 45, 24, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+.blink{
+    height: 8px;
+    width: 25px;
+    background-color: red;
+}
+   
+.data-box-text{
+    margin-top: 1px; 
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.data-box-text h1{
+    margin: 0px;
+    font-size: 35px;
+    text-align: left;
+    color: #000;
+    
+
+}
+.data-box-text h2{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    color: #000;
+}
+.red
+{ background-color: red;}
+.blue
+{background-color: royalblue;}
+.green
+{background-color: seagreen;}
+.yellow
+{ background-color: yellow;}
+
+.nav-link{
+    display: flex;
+     width: 35px;
+    margin: 15px auto;
+    font-size: medium;
+    color: wheat;
+    text-shadow: rgb(100, 77, 34);
+}
+.col2wrap{
+    height: 100vh;
+    background-color:  rgb(4, 37, 29);
+   
+    
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+
+.countryhead{
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    width: 90%;
+    height: 35px;
+    max-width: 500px;
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom: 2px;
+    margin-top: 100px;
+    background-color:  rgb(199, 174, 199);
+    justify-content: center;
+}
+.countryselected{
+  font-size: 12px;
+  height: 35px;
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+  width: 70%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 0px;
+  background-color:  rgb(199, 174, 199);
+}
+.country-list{
+    height:50vh;
+    color: #fff;
+    overflow-y: scroll;
+    width: 90%;
+    max-width: 500px;
+    background-color:  rgb(0, 102, 85);
+    border: 2px solid  rgb(6, 94, 72);
+    box-shadow:5px 5px 50px rgba(2, 49, 41, 0.45);
+    border-radius: 30px;
+    margin: 30px auto;
+    margin-top: 10px;
+    
+}
+
+
+  .country-name{
+      height: auto;
+      width: 100%;
+      color: #fff;
+      text-decoration: none;
+      outline: none;
+      background-color:  rgb(12, 85, 63);
+      border:0px solid  rgb(6, 34, 22);
+      font-size: 13px;
+      display: flex;
+      margin: 3px auto;
+      border: none;
+
+  }
+  .country-name:focus{
+      background-color: rgb(9, 48, 39);
+  }
+
+  .list-col1{
+    width: 20%;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.list-col2{
+    width: 60%;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.list-col3{
+    width: 20%;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
