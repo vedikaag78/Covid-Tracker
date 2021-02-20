@@ -1,4 +1,5 @@
 body{
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     background-color: rgb(8, 8, 8);
@@ -6,17 +7,23 @@ body{
 }
 .data-box-red:hover
 { background-color: red;
-  transform: scale(1.2);
+  transform: scale(1.05);
+  transition-duration: 200ms;
 }
 .data-box-blue:hover
 {background-color: royalblue;
-    transform: scale(1.2);}
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}
 .data-box-green:hover
 {background-color: seagreen;
-    transform: scale(1.2);}
+    transform: scale(1.05);
+    transition-duration: 200ms;
+ }
 .data-box-yellow:hover
 { background-color: yellow;
-    transform: scale(1.2);
+    transform: scale(1.05);
+    transition-duration: 200ms;
 }
 
     
